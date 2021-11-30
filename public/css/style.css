@@ -17,11 +17,13 @@ canvas{
   vertical-align:bottom;
 }
 
+
 #goggle {
+  display:flex;
   position: absolute; /* or absolute */
   top:0%;
   left: 20%;
-  /* align-items: center; */
+  justify-content: center;
   height: 600px;
   width: auto;
   z-index: 1;
@@ -29,9 +31,9 @@ canvas{
 .info a{
   z-index: 3;
   /* display: flex; */
-  position: absolute; /* or absolute */
-  top:30%;
-  left: 35%;
+  position: fixed; /* or absolute */
+  top:28%;
+  left: 44%;
   text-decoration: none;
   font-size: 25px;
   color:#075171cf;
@@ -40,9 +42,9 @@ canvas{
 .info2 a{
   z-index: 3;
   /* display: flex; */
-  position: absolute; /* or absolute */
-  top:35%;
-  left: 37%;
+  position:fixed; /* or absolute */
+  top:32%;
+  left: 47%;
   text-decoration: none;
   font-size: 25px;
   color:#075171cf;
