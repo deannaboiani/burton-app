@@ -17,9 +17,7 @@ canvas{
   vertical-align:bottom;
 }
 
-/* .center {
-  align-items: center;
-} */
+
 .goggle{
   
     display: flex;
@@ -39,8 +37,8 @@ img{
 }
 .info a{
   position:absolute; 
-  top:50%;
-  left: 40%; 
+  top:20%;
+  left: 5%; 
   text-decoration: none;
   font-size: 25px;
   color:#075171cf;
@@ -48,8 +46,8 @@ img{
 }
 .info2 a{
   position:absolute; 
-  top:50%;
-  left: 56%; 
+  top:25%;
+  left: 5%; 
   text-decoration: none;
   font-size: 25px;
   color:#075171cf;
@@ -57,8 +55,8 @@ img{
 }
 h5{
   position:absolute; 
-  top:30%;
-  left: 45%; 
+  top:1%;
+  left: 5%; 
   text-decoration: none;
   font-size: 35px;
   color:#075171cf;
